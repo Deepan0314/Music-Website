@@ -1,16 +1,115 @@
-# React + Vite
+# 🎵 Music App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive music streaming web application built using React and Vite.  
+This application provides an interactive user experience with smooth animations, audio playback controls, playlist management, and responsive UI design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🎧 Play / Pause music
+- ⏭ Next & Previous track controls
+- 🎚 Audio seek bar & duration control
+- ❤️ Like/Favorite songs
+- 📂 Playlist management
+- 🔍 Search functionality
+- ✨ Smooth animations using Framer Motion
+- 📱 Fully responsive design
+- ⚡ Fast performance with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Tailwind CSS
+- Redux Toolkit
+- Framer Motion
+- Lucide React Icons
+- JavaScript (ES6+)
+
+---
+
+## 📸 Screenshots
+
+_Add your project screenshots here_
+
+```bash
+/assets/screenshot1.png
+/assets/screenshot2.png
+```
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/music-app.git
+```
+
+Navigate to project folder:
+
+```bash
+cd music-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📁 Folder Structure
+
+```bash
+src/
+│
+├── components/
+├── pages/
+├── redux/
+├── hooks/
+├── assets/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🎯 Future Improvements
+
+- User authentication
+- Backend integration
+- Real-time music streaming
+- Create custom playlists
+- Dark / Light mode
+- Volume controls
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Feel free to fork this repository and submit pull requests.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Developer
+
+Developed by Deepan Raj 🚀
