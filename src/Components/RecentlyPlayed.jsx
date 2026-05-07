@@ -1,9 +1,4 @@
 import React, { useEffect } from 'react'
-import Neelothi from '../assets/Songs/Neelothi.jpg'
-import KadhalYenKadhal from '../assets/Songs/KadhalYenKadhal.jpg'
-import Aura from '../assets/Songs/Aura.jpg'
-import MaanaeMaanae from '../assets/Songs/MaanaeMaanae.jpg'
-import Yaathae_Yaathae from '../assets/Songs/Yaathae_Yaathae.jpg'
 import { MoveRight } from "lucide-react";
 import { RecentlyplayerSkeleton } from './Skeleton'
 import { motion } from "framer-motion";
@@ -28,7 +23,7 @@ const RecentlyPlayed = () => {
     const index = Songslist.findIndex((song) => {
       return song.id == id
     })
-    dispatch(setPlayer(e))
+    dispatch(setPlayer(index))
   };
   return (
     <>

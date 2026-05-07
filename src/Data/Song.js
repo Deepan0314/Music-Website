@@ -36,14 +36,14 @@ export const Songslist = [
     "duration": "3:48",
     "year": 2021,
     "artwork": "https://picsum.photos/200?random=13",
-    "audioUrl": "https://example.com/audio/vaathi.mp3",
+    "audioUrl": "/Songs/Vaathi-Coming.mp3",
     "likes": 0,
     "plays": 2500000
   },
   {
     "id": "004",
     "title": "Arabic Kuthu",
-    "artist": "Anirudh, Jonita Gandhi",
+    "artist": "Anirudh Ravichander, Jonita Gandhi",
     "album": "Beast",
     "genre": "Dance",
     "duration": "4:40",
@@ -173,7 +173,7 @@ export const Songslist = [
   {
     "id": "014",
     "title": "Aaluma Doluma",
-    "artist": "Anirudh",
+    "artist": "Anirudh Ravichander",
     "album": "Vedalam",
     "genre": "Mass",
     "duration": "4:18",
@@ -186,7 +186,7 @@ export const Songslist = [
   {
     "id": "015",
     "title": "Don'u Don'u Don'u",
-    "artist": "Anirudh, Alisha Thomas",
+    "artist": "Anirudh Ravichander, Alisha Thomas",
     "album": "Maari",
     "genre": "Dance",
     "duration": "3:18",
@@ -225,7 +225,7 @@ export const Songslist = [
   {
     "id": "018",
     "title": "Life of Pazham",
-    "artist": "Anirudh",
+    "artist": "Anirudh Ravichander",
     "album": "Thiruchitrambalam",
     "genre": "Feel Good",
     "duration": "3:54",
@@ -238,7 +238,7 @@ export const Songslist = [
   {
     "id": "019",
     "title": "Jalabulajangu",
-    "artist": "Anirudh",
+    "artist": "Anirudh Ravichander",
     "album": "Don",
     "genre": "Mass",
     "duration": "3:42",
@@ -251,7 +251,7 @@ export const Songslist = [
   {
     "id": "020",
     "title": "Vaathi Raid",
-    "artist": "Anirudh",
+    "artist": "Anirudh Ravichander",
     "album": "Master",
     "genre": "Mass",
     "duration": "3:45",

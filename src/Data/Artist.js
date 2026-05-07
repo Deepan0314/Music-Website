@@ -6,11 +6,11 @@ import GV from '../assets/Artist/GV.jpg'
 export const Artist=[
     {
         banner:Anirudh,
-        title:"Anirudh"
+        title:"Anirudh Ravichander"
     },
     {
         banner:ArRahman,
-        title:"ArRahman"
+        title:"A. R. Rahman"
     },
     {
         banner:GV,
