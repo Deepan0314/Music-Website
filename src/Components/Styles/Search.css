@@ -1,0 +1,44 @@
+
+
+/* ✅ FIXED SEARCH STYLES */
+.search {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.search .font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+/* Animations */
+@keyframes eq {
+  from { height: 4px; }
+  to { height: 14px; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.25s ease;
+}
+
+/* Track bar effect */
+.search .track-bar::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #c8f25c;
+  border-radius: 0 2px 2px 0;
+  transform: scaleY(0);
+  transition: transform 0.2s;
+}
+
+.search .track-bar:hover::before,
+.search .track-bar.playing::before {
+  transform: scaleY(1);
+}
