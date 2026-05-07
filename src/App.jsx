@@ -4,6 +4,7 @@ import Home from './Pages/Home.jsx'
 import { BrowserRouter, Navigate, Route, Routes, useNavigate } from 'react-router-dom'
 import YourLibrary from './Pages/YourLibrary'
 import SearchSongs from './Pages/SearchSongs'
+import Songs from './Pages/Songlist.jsx'
 import CreatePlaylist from './Pages/CreatePlaylist'
 import Header from './Components/Layout.jsx'
 
@@ -23,6 +24,7 @@ const App = () => {
             <Route path='/search' element={<SearchSongs />} />
             <Route path='/myplaylist' element={<CreatePlaylist />} />
             <Route path='/headers' element={<Header />} />
+            <Route path='/songs' element={<Songs/>}/>
             <Route path='*' element={<ErrorPage/>}/>
           </Route>
         </Routes>
